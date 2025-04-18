@@ -200,7 +200,7 @@ model_name = "deepseek-llm"
 # Set Ollama base URL
 ollama_base_url = st.sidebar.text_input(
     "Ollama API URL",
-    value="http://localhost:11434",
+    value="https://e50a-156-199-172-163.ngrok-free.app",
     help="Enter the URL where Ollama is running"
 )
 
